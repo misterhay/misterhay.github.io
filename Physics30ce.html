@@ -1,0 +1,505 @@
+<!DOCTYPE HTML><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Provincial Testing Results - EIPS Physics 30</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<style type="text/css">${demo.css}</style>
+<script type="text/javascript">$(function () {
+$('#container').highcharts({
+title: {text: 'Physics 30', x: -20},
+subtitle: {text: 'EIPS Provincial Testing Results', x: -20},
+exporting: {filename: 'Provincial_Testing_ChartPhysics 30'},
+credits: {enabled: false},
+xAxis: {categories: [2010, 2011, 2012, 2013, 2014]},
+yAxis: {title: {text: '%'}},
+tooltip: {valueSuffix: '%'},
+legend: {layout: 'vertical',align: 'right',verticalAlign: 'bottom',borderWidth: 0},
+series: [{name: '3610 Course Mark',
+id: '3610 Course Mark',
+data: [79.8,75.2,69.5,87,67.1,],
+color: 'blue',
+marker: {symbol: 'square'}
+, visible: false
+},
+{name: '3610 Exam Mark',
+id: '3610 Exam Mark',
+data: [64.8,63.8,63.1,87.2,64.7,],
+color: 'blue',
+marker: {symbol: 'circle'}
+, visible: false
+},
+{name: '3395 Course Mark',
+id: '3395 Course Mark',
+data: [75.9,80.7,69.2,76.3,64.5,],
+color: 'blue',
+marker: {symbol: 'square'}
+, visible: false
+},
+{name: '3395 Exam Mark',
+id: '3395 Exam Mark',
+data: [62.3,74.8,60.6,69.7,60.7,],
+color: 'blue',
+marker: {symbol: 'circle'}
+, visible: false
+},
+{name: '3307 Course Mark',
+id: '3307 Course Mark',
+data: [68.7,78.5,71.4,76.3,80.4,],
+color: 'blue',
+marker: {symbol: 'square'}
+, visible: false
+},
+{name: '3307 Exam Mark',
+id: '3307 Exam Mark',
+data: [51.1,55.1,54.9,60.3,66.4,],
+color: 'blue',
+marker: {symbol: 'circle'}
+, visible: false
+},
+{name: '3322 Course Mark',
+id: '3322 Course Mark',
+data: [67.6,65.7,70.4,69.2,73.2,],
+color: 'blue',
+marker: {symbol: 'square'}
+, visible: false
+},
+{name: '3322 Exam Mark',
+id: '3322 Exam Mark',
+data: [57,56.8,70.7,67.2,72.7,],
+color: 'blue',
+marker: {symbol: 'circle'}
+, visible: false
+},
+{name: '3339 Course Mark',
+id: '3339 Course Mark',
+data: [71,74.4,76.1,74.7,77.9,],
+color: 'blue',
+marker: {symbol: 'square'}
+, visible: false
+},
+{name: '3339 Exam Mark',
+id: '3339 Exam Mark',
+data: [59.6,66.6,67.9,69.4,65.1,],
+color: 'blue',
+marker: {symbol: 'circle'}
+, visible: false
+},
+{name: '3404 Course Mark',
+id: '3404 Course Mark',
+data: [62.3,59.8,66.4,69.5,77.8,],
+color: 'blue',
+marker: {symbol: 'square'}
+, visible: false
+},
+{name: '3404 Exam Mark',
+id: '3404 Exam Mark',
+data: [46.7,44.9,56.4,60.4,65.4,],
+color: 'blue',
+marker: {symbol: 'circle'}
+, visible: false
+},
+{name: '3310 Course Mark',
+id: '3310 Course Mark',
+data: [62.5,null,72,65,42.5,],
+color: 'blue',
+marker: {symbol: 'square'}
+, visible: false
+},
+{name: '3310 Exam Mark',
+id: '3310 Exam Mark',
+data: [61.5,null,36,68,37,],
+color: 'blue',
+marker: {symbol: 'circle'}
+, visible: false
+},
+{name: '3311 Course Mark',
+id: '3311 Course Mark',
+data: [66.4,69.8,64.1,65.5,67.8,],
+color: 'blue',
+marker: {symbol: 'square'}
+, visible: false
+},
+{name: '3311 Exam Mark',
+id: '3311 Exam Mark',
+data: [53.8,62.6,59,62.1,62.7,],
+color: 'blue',
+marker: {symbol: 'circle'}
+, visible: false
+},
+{name: '3340 Course Mark',
+id: '3340 Course Mark',
+data: [75.1,72.9,71.8,74.7,75.3,],
+color: 'blue',
+marker: {symbol: 'square'}
+, visible: false
+},
+{name: '3340 Exam Mark',
+id: '3340 Exam Mark',
+data: [57.4,55.8,64.2,70.2,70,],
+color: 'blue',
+marker: {symbol: 'circle'}
+, visible: false
+},
+{name: '3301 Course Mark',
+id: '3301 Course Mark',
+data: [79.8,70.6,80.3,75.1,79.3,],
+color: 'blue',
+marker: {symbol: 'square'}
+, visible: false
+},
+{name: '3301 Exam Mark',
+id: '3301 Exam Mark',
+data: [79.6,63.6,75.3,67.3,76.9,],
+color: 'blue',
+marker: {symbol: 'circle'}
+, visible: false
+},
+{name: '3401 Course Mark',
+id: '3401 Course Mark',
+data: [71.3,74.5,67,90,56,],
+color: 'blue',
+marker: {symbol: 'square'}
+, visible: false
+},
+{name: '3401 Exam Mark',
+id: '3401 Exam Mark',
+data: [45.3,46.3,36,76,54,],
+color: 'blue',
+marker: {symbol: 'circle'}
+, visible: false
+},
+{name: 'EIPS Course Mark',
+id: 'EIPS Course Mark',
+data: [72.2,71.9,71.7,73.4,73.7,],
+color: 'green',
+marker: {symbol: 'square'}
+},
+{name: 'EIPS Exam Mark',
+id: 'EIPS Exam Mark',
+data: [58.1,59.4,65.2,68.2,69.1,],
+color: 'green',
+marker: {symbol: 'circle'}
+},
+{name: 'Alberta Course Mark',
+id: 'Alberta Course Mark',
+data: [75.4,75,75.5,75.2,76.4,],
+color: 'red',
+marker: {symbol: 'square'}
+},
+{name: 'Alberta Exam Mark',
+id: 'Alberta Exam Mark',
+data: [62,64.7,66.7,66.9,68.8,],
+color: 'red',
+marker: {symbol: 'circle'}
+},
+]
+});
+var chart = $('#container').highcharts(),
+
+$button3610 = $('#button3610');
+$button3610.click(function () {
+if (chart.get('3610 Course Mark').visible) {
+chart.get('3610 Course Mark').hide();
+chart.get('3610 Exam Mark').hide();
+$button3610.html('Show 3610');
+} else {
+chart.get('3610 Course Mark').show();
+chart.get('3610 Exam Mark').show();
+$button3610.html('Hide 3610');
+}});
+
+$button3395 = $('#button3395');
+$button3395.click(function () {
+if (chart.get('3395 Course Mark').visible) {
+chart.get('3395 Course Mark').hide();
+chart.get('3395 Exam Mark').hide();
+$button3395.html('Show 3395');
+} else {
+chart.get('3395 Course Mark').show();
+chart.get('3395 Exam Mark').show();
+$button3395.html('Hide 3395');
+}});
+
+$button3307 = $('#button3307');
+$button3307.click(function () {
+if (chart.get('3307 Course Mark').visible) {
+chart.get('3307 Course Mark').hide();
+chart.get('3307 Exam Mark').hide();
+$button3307.html('Show 3307');
+} else {
+chart.get('3307 Course Mark').show();
+chart.get('3307 Exam Mark').show();
+$button3307.html('Hide 3307');
+}});
+
+$button3322 = $('#button3322');
+$button3322.click(function () {
+if (chart.get('3322 Course Mark').visible) {
+chart.get('3322 Course Mark').hide();
+chart.get('3322 Exam Mark').hide();
+$button3322.html('Show 3322');
+} else {
+chart.get('3322 Course Mark').show();
+chart.get('3322 Exam Mark').show();
+$button3322.html('Hide 3322');
+}});
+
+$button3339 = $('#button3339');
+$button3339.click(function () {
+if (chart.get('3339 Course Mark').visible) {
+chart.get('3339 Course Mark').hide();
+chart.get('3339 Exam Mark').hide();
+$button3339.html('Show 3339');
+} else {
+chart.get('3339 Course Mark').show();
+chart.get('3339 Exam Mark').show();
+$button3339.html('Hide 3339');
+}});
+
+$button3404 = $('#button3404');
+$button3404.click(function () {
+if (chart.get('3404 Course Mark').visible) {
+chart.get('3404 Course Mark').hide();
+chart.get('3404 Exam Mark').hide();
+$button3404.html('Show 3404');
+} else {
+chart.get('3404 Course Mark').show();
+chart.get('3404 Exam Mark').show();
+$button3404.html('Hide 3404');
+}});
+
+$button3310 = $('#button3310');
+$button3310.click(function () {
+if (chart.get('3310 Course Mark').visible) {
+chart.get('3310 Course Mark').hide();
+chart.get('3310 Exam Mark').hide();
+$button3310.html('Show 3310');
+} else {
+chart.get('3310 Course Mark').show();
+chart.get('3310 Exam Mark').show();
+$button3310.html('Hide 3310');
+}});
+
+$button3311 = $('#button3311');
+$button3311.click(function () {
+if (chart.get('3311 Course Mark').visible) {
+chart.get('3311 Course Mark').hide();
+chart.get('3311 Exam Mark').hide();
+$button3311.html('Show 3311');
+} else {
+chart.get('3311 Course Mark').show();
+chart.get('3311 Exam Mark').show();
+$button3311.html('Hide 3311');
+}});
+
+$button3340 = $('#button3340');
+$button3340.click(function () {
+if (chart.get('3340 Course Mark').visible) {
+chart.get('3340 Course Mark').hide();
+chart.get('3340 Exam Mark').hide();
+$button3340.html('Show 3340');
+} else {
+chart.get('3340 Course Mark').show();
+chart.get('3340 Exam Mark').show();
+$button3340.html('Hide 3340');
+}});
+
+$button3301 = $('#button3301');
+$button3301.click(function () {
+if (chart.get('3301 Course Mark').visible) {
+chart.get('3301 Course Mark').hide();
+chart.get('3301 Exam Mark').hide();
+$button3301.html('Show 3301');
+} else {
+chart.get('3301 Course Mark').show();
+chart.get('3301 Exam Mark').show();
+$button3301.html('Hide 3301');
+}});
+
+$button3401 = $('#button3401');
+$button3401.click(function () {
+if (chart.get('3401 Course Mark').visible) {
+chart.get('3401 Course Mark').hide();
+chart.get('3401 Exam Mark').hide();
+$button3401.html('Show 3401');
+} else {
+chart.get('3401 Course Mark').show();
+chart.get('3401 Exam Mark').show();
+$button3401.html('Hide 3401');
+}});
+
+$buttonEIPS = $('#buttonEIPS');
+$buttonEIPS.click(function () {
+if (chart.get('EIPS Course Mark').visible) {
+chart.get('EIPS Course Mark').hide();
+chart.get('EIPS Exam Mark').hide();
+$buttonEIPS.html('Show EIPS');
+} else {
+chart.get('EIPS Course Mark').show();
+chart.get('EIPS Exam Mark').show();
+$buttonEIPS.html('Hide EIPS');
+}});
+
+$buttonAlberta = $('#buttonAlberta');
+$buttonAlberta.click(function () {
+if (chart.get('Alberta Course Mark').visible) {
+chart.get('Alberta Course Mark').hide();
+chart.get('Alberta Exam Mark').hide();
+$buttonAlberta.html('Show Alberta');
+} else {
+chart.get('Alberta Course Mark').show();
+chart.get('Alberta Exam Mark').show();
+$buttonAlberta.html('Hide Alberta');
+}});
+
+$buttonAll = $('#buttonAll');
+$buttonAll.click(function () {
+if (chart.get('Alberta Course Mark').visible) {
+chart.get('3610 Course Mark').hide();
+chart.get('3610 Exam Mar').hide();
+chart.get('3395 Course Mark').hide();
+chart.get('3395 Exam Mar').hide();
+chart.get('3307 Course Mark').hide();
+chart.get('3307 Exam Mar').hide();
+chart.get('3322 Course Mark').hide();
+chart.get('3322 Exam Mar').hide();
+chart.get('3339 Course Mark').hide();
+chart.get('3339 Exam Mar').hide();
+chart.get('3404 Course Mark').hide();
+chart.get('3404 Exam Mar').hide();
+chart.get('3310 Course Mark').hide();
+chart.get('3310 Exam Mar').hide();
+chart.get('3311 Course Mark').hide();
+chart.get('3311 Exam Mar').hide();
+chart.get('3340 Course Mark').hide();
+chart.get('3340 Exam Mar').hide();
+chart.get('3301 Course Mark').hide();
+chart.get('3301 Exam Mar').hide();
+chart.get('3401 Course Mark').hide();
+chart.get('3401 Exam Mar').hide();
+chart.get('EIPS Course Mark').hide();
+chart.get('EIPS Exam Mar').hide();
+chart.get('Alberta Course Mark').hide();
+chart.get('Alberta Exam Mar').hide();
+$button3610.html('Show 3610');
+$button3395.html('Show 3395');
+$button3307.html('Show 3307');
+$button3322.html('Show 3322');
+$button3339.html('Show 3339');
+$button3404.html('Show 3404');
+$button3310.html('Show 3310');
+$button3311.html('Show 3311');
+$button3340.html('Show 3340');
+$button3301.html('Show 3301');
+$button3401.html('Show 3401');
+$buttonEIPS.html('Show EIPS');
+$buttonAlberta.html('Show Alberta');
+$buttonAll.html('Show All');
+} else {
+chart.get('3610 Course Mark').show();
+chart.get('3610 Exam Mar').show();
+chart.get('3395 Course Mark').show();
+chart.get('3395 Exam Mar').show();
+chart.get('3307 Course Mark').show();
+chart.get('3307 Exam Mar').show();
+chart.get('3322 Course Mark').show();
+chart.get('3322 Exam Mar').show();
+chart.get('3339 Course Mark').show();
+chart.get('3339 Exam Mar').show();
+chart.get('3404 Course Mark').show();
+chart.get('3404 Exam Mar').show();
+chart.get('3310 Course Mark').show();
+chart.get('3310 Exam Mar').show();
+chart.get('3311 Course Mark').show();
+chart.get('3311 Exam Mar').show();
+chart.get('3340 Course Mark').show();
+chart.get('3340 Exam Mar').show();
+chart.get('3301 Course Mark').show();
+chart.get('3301 Exam Mar').show();
+chart.get('3401 Course Mark').show();
+chart.get('3401 Exam Mar').show();
+chart.get('EIPS Course Mark').show();
+chart.get('EIPS Exam Mar').show();
+chart.get('Alberta Course Mark').show();
+chart.get('Alberta Exam Mar').show();
+$button3610.html('Hide 3610');
+$button3395.html('Hide 3395');
+$button3307.html('Hide 3307');
+$button3322.html('Hide 3322');
+$button3339.html('Hide 3339');
+$button3404.html('Hide 3404');
+$button3310.html('Hide 3310');
+$button3311.html('Hide 3311');
+$button3340.html('Hide 3340');
+$button3301.html('Hide 3301');
+$button3401.html('Hide 3401');
+$buttonEIPS.html('Hide EIPS');
+$buttonAlberta.html('Hide Alberta');
+$buttonAll.html('Hide All');
+}});
+});
+</script></head><body>
+<script src="js/highcharts.js"></script>
+<script src="js/modules/exporting.js"></script>
+<div id="container" style="min-width: 310px; height: 600px; margin: 0 auto"></div>
+<button id="button3610" class="autocompare">Show 3610</button>
+<button id="button3395" class="autocompare">Show 3395</button>
+<button id="button3307" class="autocompare">Show 3307</button>
+<button id="button3322" class="autocompare">Show 3322</button>
+<button id="button3339" class="autocompare">Show 3339</button>
+<button id="button3404" class="autocompare">Show 3404</button>
+<button id="button3310" class="autocompare">Show 3310</button>
+<button id="button3311" class="autocompare">Show 3311</button>
+<button id="button3340" class="autocompare">Show 3340</button>
+<button id="button3301" class="autocompare">Show 3301</button>
+<button id="button3401" class="autocompare">Show 3401</button>
+<button id="buttonEIPS" class="autocompare">Hide EIPS</button>
+<button id="buttonAlberta" class="autocompare">Hide Alberta</button>
+<button id="buttonAll" class="autocompare">Hide All</button>
+<p><b>School Codes</b>
+<table style="width:100%">
+<tr><td>0401</td><td>Vegreville Next Step III Outreach School</td><td>3611</td><td>A. L. Horton Elementary School</td></tr>
+<tr><td>1221</td><td>Lakeland Ridge School</td><td>3401</td><td>Andrew School</td></tr>
+<tr><td>1233</td><td>NextStep Online</td><td>3301</td><td>Ardrossan Junior Senior High School</td></tr>
+<tr><td>1234</td><td>EIPS Home Education</td><td>3340</td><td>Bev Facey Community High School</td></tr>
+<tr><td>1367</td><td>Strathcona Christian Academy Elementary School</td><td>5517</td><td>Brentwood Elementary School</td></tr>
+<tr><td>1599</td><td>Elk Island Youth Ranch Learning Centre</td><td>3409</td><td>Bruderheim Community School</td></tr>
+<tr><td>1752</td><td>Rudolph Hennig Junior High School</td><td>3332</td><td>Castle School (Scotford Colony)</td></tr>
+<tr><td>1753</td><td>&Eacute;cole Parc &Eacute;l&eacute;mentaire</td><td>3330</td><td>Clover Bar Junior High School</td></tr>
+<tr><td>3301</td><td>Ardrossan Junior Senior High School</td><td>3325</td><td>&Eacute;cole Campbelltown School</td></tr>
+<tr><td>3303</td><td>&Eacute;cole &Eacute;l&eacute;mentaire Ardrossan Elementary School</td><td>3303</td><td>&Eacute;cole &Eacute;l&eacute;mentaire Ardrossan Elementary School</td></tr>
+<tr><td>3304</td><td>Uncas Elementary School</td><td>1753</td><td>&Eacute;cole Parc &Eacute;l&eacute;mentaire</td></tr>
+<tr><td>3307</td><td>Sherwood Park Next Step I Outreach School</td><td>1234</td><td>EIPS Home Education</td></tr>
+<tr><td>3310</td><td>Fort Saskatchewan Next Step II Outreach School</td><td>1599</td><td>Elk Island Youth Ranch Learning Centre</td></tr>
+<tr><td>3311</td><td>Fort Saskatchewan High School</td><td>3321</td><td>F. R. Haythorne School</td></tr>
+<tr><td>3313</td><td>Fort Saskatchewan Elementary School</td><td>3397</td><td>Fort Saskatchewan Christian School</td></tr>
+<tr><td>3316</td><td>Win Ferguson Community School</td><td>3313</td><td>Fort Saskatchewan Elementary School</td></tr>
+<tr><td>3318</td><td>Ministik Elementary</td><td>3311</td><td>Fort Saskatchewan High School</td></tr>
+<tr><td>3321</td><td>F. R. Haythorne School</td><td>3310</td><td>Fort Saskatchewan Next Step II Outreach School</td></tr>
+<tr><td>3322</td><td>Salisbury Composite High School</td><td>3335</td><td>Fultonvale Elementary Junior High School</td></tr>
+<tr><td>3323</td><td>Sherwood Heights Junior High School</td><td>3333</td><td>Glen Allan Elementary School</td></tr>
+<tr><td>3325</td><td>&Eacute;cole Campbelltown School</td><td>3341</td><td>James Mowat School</td></tr>
+<tr><td>3326</td><td>Pine Street School</td><td>1221</td><td>Lakeland Ridge School</td></tr>
+<tr><td>3328</td><td>Westboro Elementary School</td><td>3405</td><td>Lamont Elementary School</td></tr>
+<tr><td>3329</td><td>Mills Haven Elementary School</td><td>3404</td><td>Lamont High School</td></tr>
+<tr><td>3330</td><td>Clover Bar Junior High School</td><td>3329</td><td>Mills Haven Elementary School</td></tr>
+<tr><td>3331</td><td>Wye School</td><td>3318</td><td>Ministik Elementary</td></tr>
+<tr><td>3332</td><td>Castle School (Scotford Colony)</td><td>3406</td><td>Mundare School</td></tr>
+<tr><td>3333</td><td>Glen Allan Elementary School</td><td>3339</td><td>Next Step Continuing Education</td></tr>
+<tr><td>3334</td><td>Wes Hosford School</td><td>1233</td><td>NextStep Online</td></tr>
+<tr><td>3335</td><td>Fultonvale Elementary Junior High School</td><td>3326</td><td>Pine Street School</td></tr>
+<tr><td>3336</td><td>Woodbridge Farms School</td><td>3615</td><td>Pleasant Ridge Colony School</td></tr>
+<tr><td>3339</td><td>Next Step Continuing Education</td><td>1752</td><td>Rudolph Hennig Junior High School</td></tr>
+<tr><td>3340</td><td>Bev Facey Community High School</td><td>3322</td><td>Salisbury Composite High School</td></tr>
+<tr><td>3341</td><td>James Mowat School</td><td>3323</td><td>Sherwood Heights Junior High School</td></tr>
+<tr><td>3395</td><td>Strathcona Christian Academy Secondary School</td><td>3307</td><td>Sherwood Park Next Step I Outreach School</td></tr>
+<tr><td>3397</td><td>Fort Saskatchewan Christian School</td><td>1367</td><td>Strathcona Christian Academy Elementary School</td></tr>
+<tr><td>3401</td><td>Andrew School</td><td>3395</td><td>Strathcona Christian Academy Secondary School</td></tr>
+<tr><td>3404</td><td>Lamont High School</td><td>3304</td><td>Uncas Elementary School</td></tr>
+<tr><td>3405</td><td>Lamont Elementary School</td><td>3610</td><td>Vegreville Composite High School</td></tr>
+<tr><td>3406</td><td>Mundare School</td><td>0401</td><td>Vegreville Next Step III Outreach School</td></tr>
+<tr><td>3409</td><td>Bruderheim Community School</td><td>3334</td><td>Wes Hosford School</td></tr>
+<tr><td>3610</td><td>Vegreville Composite High School</td><td>3328</td><td>Westboro Elementary School</td></tr>
+<tr><td>3611</td><td>A. L. Horton Elementary School</td><td>3316</td><td>Win Ferguson Community School</td></tr>
+<tr><td>3615</td><td>Pleasant Ridge Colony School</td><td>3336</td><td>Woodbridge Farms School</td></tr>
+<tr><td>5517</td><td>Brentwood Elementary School</td><td>3331</td><td>Wye School</td></tr>
+</table>
+</p></body></html>
