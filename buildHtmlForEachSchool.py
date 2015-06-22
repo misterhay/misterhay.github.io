@@ -126,7 +126,7 @@ def makeFooter(school):
         year3 = row[7]
         year4 = row[8]
         year5 = row[9]
-        if row[3] == 'Prov' or school == 'EIPS':
+        if row[3] == 'Prov' or row[3] == 'EIPS':
             label = row[3] + ' ' + course + ' ' + '' + form + ' ' + language + ' ' + datatype
             datalist = [year1, year2, year3, year4, year5]
             addToBody(school, label, datalist)
